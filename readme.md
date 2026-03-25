@@ -15,7 +15,9 @@
 [MuteTwitchVODTrack](https://github.com/TheBlackParrot/MuteTwitchVODTrack)
 
 ### Quick Install
-Now that it's compiled with pyinstaller. Just run SRXDStatusAdapter.exe and connect to it with StreamerBot on port 9000.
+## [Download](https://github.com/YoshiOST/SRXDpy/releases/tag/1.0.0)  
+Now that it's compiled with pyinstaller. Just download and run SRXDStatusAdapter.exe,  
+and then connect to it with StreamerBot on port 9000.
 
 #### Dual PC Setup
 Run SRXDproxy.exe on the computer with the game  
