@@ -45,10 +45,10 @@ I've used pyinstaller with multiple python installations so this is what I did
 is the code to receive websocket information from SRXDStatusAdapter.exe and send the Track info and credits into the chat.
 Make sure to match the ip localhost/127.0.0.1 and the port 9000.  
 
-you can change them later if you want!
+you can change them later if you want!  
 ![Make sure the references are found so the script works](find_refs.png)
 
-![Add a custom websocket server in streamerbot](Streamer.bot_5nBjcC8MnT.png)
+![Add a custom websocket server in streamerbot](websocketserver_sb.png)
 There is a credits template that already exists for the base game. Feel free to use.
 
 # SRXDStatusAdapter.exe
