@@ -34,12 +34,19 @@ make sure adding the ip and the port (default 9000) of the computer with the Spi
 
 or ```python -m pip install asyncio websockets```  
 depending on if you run multiple python versions
+
+I've used pyinstaller with multiple python installations so this is what I did  
+```python3.14 -m pip install pyinstaller```  
+```python3.14 -m PyInstaller --onefile .\SRXDStatusAdapter.py```
+```python3.14 -m PyInstaller --onefile .\SRXDproxy.py```
+
+
 # SpinRhythmSB.cs
-is the code to receive websocket information from updatestreamerbot.js and send the Track info and credits into the chat.
+is the code to receive websocket information from SRXDStatusAdapter.exe and send the Track info and credits into the chat.
 Make sure to match the ip localhost/127.0.0.1 and the port 9000.  
 
 you can change them later if you want!
-
+![Make sure the references are found so the script works](find_refs.png)
 
 ![Add a custom websocket server in streamerbot](Streamer.bot_5nBjcC8MnT.png)
 There is a credits template that already exists for the base game. Feel free to use.
