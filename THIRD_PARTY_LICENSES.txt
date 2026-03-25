@@ -1,0 +1,9 @@
+This software includes third-party components:
+
+Python
+License: Python Software Foundation License
+URL: https://docs.python.org/3/license.html
+
+websockets
+License: BSD 3-Clause License
+URL: https://github.com/python-websockets/websockets/blob/main/LICENSE
