@@ -79,3 +79,6 @@ You changed the address and port of the computer you want to another local compu
 
 # SRXDproxy.exe
 This helper program exposes the localhost websocket in SpinStatus to other computers on the network i.e. dual pc streaming.
+
+This release includes a compiled Windows executable. 
+Third-party licenses for bundled components are in THIRD_PARTY_LICENSES.txt in the Release section.
